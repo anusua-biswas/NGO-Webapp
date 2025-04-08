@@ -1,0 +1,49 @@
+.heroSection {
+  margin-bottom: 80px;
+  padding: 0 80px;
+}
+
+.heroContent {
+  max-width: 844px;
+}
+
+.heroTitle {
+  color: #000;
+  letter-spacing: -1.28px;
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.registerButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (width<=991px) {
+  .heroSection {
+    padding: 0 32px;
+  }
+
+  .heroTitle {
+    font-size: 48px;
+  }
+}
+
+@media (width<=640px) {
+  .heroTitle {
+    font-size: 36px;
+  }
+
+  .registerButton {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+}

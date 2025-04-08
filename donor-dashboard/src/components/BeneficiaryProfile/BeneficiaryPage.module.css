@@ -1,0 +1,20 @@
+.page {
+  background-color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.mainContent {
+  padding: 0 80px;
+}
+
+@media (width <= 991px) {
+  .mainContent {
+    padding: 40px;
+  }
+}
+
+@media (width <= 640px) {
+  .mainContent {
+    padding: 20px;
+  }
+}

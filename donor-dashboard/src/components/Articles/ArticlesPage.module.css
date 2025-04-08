@@ -1,0 +1,36 @@
+.pageContainer {
+  background-color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.mainContent {
+  padding: 0 80px;
+}
+
+.pageTitle {
+  letter-spacing: -1.28px;
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+@media (width<=991px) {
+  .mainContent {
+    padding: 0 40px;
+  }
+
+  .pageTitle {
+    font-size: 48px;
+  }
+}
+
+@media (width<=640px) {
+  .mainContent {
+    padding: 0 20px;
+  }
+
+  .pageTitle {
+    font-size: 36px;
+  }
+}

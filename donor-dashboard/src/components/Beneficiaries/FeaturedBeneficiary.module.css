@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.description {
+  color: #828282;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 24px;
+}
+
+.buttons {
+  display: flex;
+  gap: 6px;
+  margin-top: 24px;
+}
+
+.engageButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.followButton {
+  color: #000;
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+@media (width <= 991px) {
+  .container {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .content {
+    order: 2;
+  }
+
+  .imageContainer {
+    order: 1;
+  }
+
+  .engageButton,
+  .followButton {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

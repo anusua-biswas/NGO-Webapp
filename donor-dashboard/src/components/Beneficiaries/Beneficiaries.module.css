@@ -1,0 +1,79 @@
+.beneficiaries {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 720px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  padding: 0 80px;
+}
+
+.sectionTitle {
+  color: #000;
+  letter-spacing: -0.96px;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 150px;
+}
+
+.beneficiariesGrid {
+  display: flex;
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.mainCard {
+  width: 59%;
+}
+
+.sideCards {
+  width: 41%;
+}
+
+.statistics {
+  display: flex;
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.statisticsColumn {
+  flex: 1;
+}
+
+@media (width <= 991px) {
+  .beneficiaries {
+    max-width: 100%;
+  }
+
+  .content {
+    padding: 0 20px;
+  }
+
+  .sectionTitle {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .beneficiariesGrid {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .mainCard,
+  .sideCards {
+    width: 100%;
+  }
+
+  .statistics {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}

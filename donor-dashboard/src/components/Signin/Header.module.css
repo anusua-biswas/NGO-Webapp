@@ -1,0 +1,26 @@
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 80px;
+  display: flex;
+}
+
+.logo {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (width <= 991px) {
+  .header {
+    padding: 32px;
+  }
+}
+
+@media (width <= 640px) {
+  .header {
+    padding: 16px;
+  }
+}

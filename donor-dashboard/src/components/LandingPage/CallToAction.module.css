@@ -1,0 +1,58 @@
+.ctaSection {
+  background-color: #f7f7f7;
+  padding: 80px;
+}
+
+.ctaContainer {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ctaTitle {
+  color: #000;
+  letter-spacing: -0.96px;
+  margin-bottom: 48px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.ctaButtons {
+  gap: 24px;
+  display: flex;
+}
+
+.registerButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.aboutButton {
+  color: #000;
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (width<=991px) {
+  .ctaSection {
+    padding: 40px;
+  }
+}
+
+@media (width<=640px) {
+  .ctaContainer {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

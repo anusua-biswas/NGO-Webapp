@@ -1,0 +1,78 @@
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.title {
+  letter-spacing: -1.28px;
+  margin-bottom: 48px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+
+.userTypeButton {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.userTypeButton.active {
+  font-weight: 700;
+  color: #01070e; /* Blue highlight */
+  border-bottom: 3px solid #01070e; /* Visible underline */
+  background-color: rgb(249, 249, 249); /* Light blue background */
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 626px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+}
+
+@media (width <= 991px) {
+  .formSection {
+    padding: 0 32px;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+@media (width <= 640px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .form {
+    gap: 16px;
+  }
+
+  .inputRow {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

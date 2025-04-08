@@ -1,0 +1,17 @@
+.socialIcons {
+  gap: 8px;
+  display: flex;
+}
+
+.icon {
+  color: #828282;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #000;
+}

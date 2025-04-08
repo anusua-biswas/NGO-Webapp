@@ -1,0 +1,63 @@
+.profileSection {
+  gap: 105px;
+  margin-bottom: 100px;
+  display: flex;
+  font-family: Inter, sans-serif;
+}
+
+.beneficiaryImage {
+  object-fit: cover;
+  border-radius: 12px;
+  width: 625px;
+  height: 613px;
+}
+
+.profileContent {
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 40px;
+  display: flex;
+}
+
+.name {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.category {
+  color: #828282;
+  font-size: 24px;
+  margin: 0;
+}
+
+.projectTitle {
+  color: #000;
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  color: #828282;
+  font-size: 20px;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (width <= 991px) {
+  .profileSection {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .beneficiaryImage {
+    width: 100%;
+    height: auto;
+  }
+}

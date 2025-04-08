@@ -1,0 +1,29 @@
+.relatedArticlesSection {
+  margin-bottom: 80px;
+}
+
+.sectionTitle {
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.articlesGrid {
+  gap: 32px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .articlesGrid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (width<=640px) {
+  .sectionTitle {
+    text-align: center;
+    font-size: 32px;
+  }
+}

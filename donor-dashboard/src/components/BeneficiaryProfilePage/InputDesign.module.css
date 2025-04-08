@@ -1,0 +1,281 @@
+.mainContainer {
+  width: 100%;
+  min-height: screen;
+  background-color: #fff;
+  font-family: Inter;
+}
+
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 80px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width<=640px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.logo {
+  color: #000;
+  font-size: 20px;
+}
+
+.navigation {
+  align-items: center;
+  gap: 48px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.navLink {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.profileButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
+  box-shadow: 0 1px 2px #0000000d;
+  border: none;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (width<=991px) {
+  .mobileMenu {
+    display: block;
+  }
+}
+
+.profileSection {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 80px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .profileSection {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width<=640px) {
+  .profileSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.pageTitle {
+  color: #000;
+  letter-spacing: -1.28px;
+  margin-bottom: 32px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+@media (width<=991px) {
+  .pageTitle {
+    font-size: 48px;
+  }
+}
+
+@media (width<=640px) {
+  .pageTitle {
+    font-size: 36px;
+  }
+}
+
+.pageSubtitle {
+  color: #000;
+  margin-bottom: 48px;
+  font-size: 20px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 641px;
+}
+
+.formGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px 24px;
+  display: grid;
+}
+
+@media (width<=640px) {
+  .formGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.formGroup {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.inputLabel {
+  color: #000;
+  font-size: 16px;
+}
+
+.inputWrapper {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.formInput {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.formInput[type="text"],
+.formInput[type="email"] {
+  color: #828282;
+}
+
+.submitWrapper {
+  grid-column: span 2 / span 2;
+}
+
+@media (width<=640px) {
+  .submitWrapper {
+    grid-column: span 1 / span 1;
+  }
+}
+
+.submitButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 48px 80px;
+}
+
+@media (width<=991px) {
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width<=640px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footerContent {
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.footerBrand {
+  flex-direction: column;
+  gap: 48px;
+  display: flex;
+}
+
+.footerLogo {
+  color: #000;
+  font-size: 24px;
+}
+
+.socialLinks {
+  gap: 8px;
+  display: flex;
+}
+
+.socialLink {
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.footerLinks {
+  gap: 32px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .footerLinks {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.footerColumn {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.footerTitle {
+  color: #000;
+  font-size: 16px;
+}
+
+.footerLink {
+  color: #454545;
+  font-size: 16px;
+  text-decoration: none;
+}
